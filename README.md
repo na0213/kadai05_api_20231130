@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Animal Book
 
-## Getting Started
+## DEMO
 
-First, run the development server:
+  - デプロイしている場合はURLを記入（任意）
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 紹介と使い方
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  - Notionに登録したい動物リストを作成
+  - Notionに登録した動物一覧とその詳細は、WEBサイト（Animal Book）上で見ることができる。
+  - 登録された動物の主な生息地を地図上で確認できる
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 工夫した点
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  - NotionをCMS化
+  - NotionのAPIを使いたくて初めてNext.js、Reactを使用した
+  - GoogleMapAPIも使用した
 
-## Learn More
+## 苦戦した点
 
-To learn more about Next.js, take a look at the following resources:
+  - 一度はトライしたいと思っていたReactを使用したら、想像以上にハマってしまい、エラーのオンパレードだった。
+  - 動画や教材など利用したが、バージョン違いで使えない記述方法などがあったため、最新バージョンでの記述に苦戦した。
+  - reactの構造の理解に苦しんだ（実装していくうちにだんだん理解できてきた）
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 参考にした web サイトなど
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  - GoogleMapAPIの使い方：https://utubou-tech.com/react-google-maps/
+  - Next.js v13について：https://monotein.com/blog/nextjs-v13-new-features
+  - NotionとNext.js環境構築：https://sinpe-pgm.com/notionblog_nextjs/
